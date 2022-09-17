@@ -1,0 +1,30 @@
+.saude-mulher__titulo{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.saude-mulher__itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.saude-mulher__imagem{
+    width: 30%; 
+    display: flex;
+}
+
+.saude-mulher__descricao{
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 190%;
+    text-align: justify;
+    padding-right: 25%;
+
+}
+

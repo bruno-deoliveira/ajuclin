@@ -1,0 +1,53 @@
+.especialidades{
+    background-color: var(--text-menu);
+    padding: 2rem 3rem;
+}
+
+.especialidades__titulo{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.especialidades__lista{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.esp__clinica{
+    width: 18%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.esp__imagem{
+    width: 50%;
+}
+
+.esp__texto{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+@media screen and (max-width: 1030px){
+    .especialidades{ 
+        margin: 0 auto;
+        width: 60rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .especialidades{ 
+        margin: 0 auto;
+        width: 60rem;
+    }
+}
+
+

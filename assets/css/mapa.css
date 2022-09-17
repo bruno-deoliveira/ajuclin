@@ -1,0 +1,33 @@
+.mapa {
+  padding: 3em 0;
+  background-color: #ffffff;
+}
+
+.mapa__titulo{
+  color: var(--text-menu);
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mapa__texto {
+  margin: 1rem 0 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.mapa__conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+.mapa{
+    margin: 0 auto;
+    width: 60rem;
+    padding-bottom: 1rem;
+}
+
+
+}

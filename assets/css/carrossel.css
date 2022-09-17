@@ -1,0 +1,42 @@
+.carrossel {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+}
+
+.carrossel__titulo {
+    color: var(--text-menu);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0 0.5rem 0;
+} 
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-slide p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.dr {
+    font-weight: bold;
+}
+
+.especialidade {
+    font-weight: 300;
+}
+.swiper-pagination {
+    position: initial;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 768px){
+.carrossel{
+    width: 60rem;
+}
+}
+    

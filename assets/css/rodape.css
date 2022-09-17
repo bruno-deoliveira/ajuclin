@@ -1,0 +1,29 @@
+.rodape{
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-menu);
+    gap: 1rem;
+}
+.rodape__texto{
+    color: #FFFFFF;
+
+}
+
+.rodape__imagem{
+     width: 50px;
+     padding-right: 1rem;
+}
+
+@media screen and (max-width: 768px){
+.rodape{
+    margin: 0 auto;
+    width: 60rem;
+    padding-bottom: 1rem;
+}
+
+
+}

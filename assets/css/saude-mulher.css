@@ -1,0 +1,71 @@
+.saude-mulher{
+    background-color: var(--text-menu);
+    padding: 2rem 2rem 0 2rem;
+}
+
+.saude-mulher__titulo{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.saude-mulher__itens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    gap: 3rem;
+}
+
+.saude-mulher__imagem{ 
+    width: 40%;
+    margin-left: 5%;
+}
+
+.saude-mulher__descricao{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-right: 12%;
+}
+
+.saude-mulher__texto{
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 190%;
+    text-align: justify;
+}
+
+.saude-mulher__subtitulo{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding: .5rem 0;
+}
+
+.saude-mulher__item{
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 1030px){
+    .saude-mulher__imagem{ 
+        padding-top: 13rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+.saude-mulher{
+    margin: 0 auto;
+    width: 60rem;
+    padding-bottom: 1rem;
+}
+.saude-mulher__imagem{ 
+        padding-top: 15rem;
+        display: none;
+}
+
+}
